@@ -26,3 +26,13 @@ a {
 a:hover {
     color: darkmagenta;
 }
+main {
+
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    float: right;
+    background-color: deeppink;
+}
