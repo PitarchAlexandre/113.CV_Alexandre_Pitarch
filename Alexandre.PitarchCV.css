@@ -11,10 +11,11 @@ body {
     background-color: whitesmoke;
 }
 
+
 img {
     max-width: 100%;
-    height: auto;
-    width: auto;
+    height: 40%;
+    width: 40%;
 }
 
 a {
