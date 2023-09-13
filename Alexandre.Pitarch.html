@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="Alexandre.PitarchCV.css"/>
     <title><link href="/favicon-32x32.png"> CV Alexandre Pitarch</title>
 <!-- Ici sont les liens pour les icones de pêche-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="icones/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icones/favicon-16x16.png">
+    <link rel="manifest" href="icones/site.webmanifest">
 </head>
 <body>
 <!-- là c'est la bar de navigation-->
 <header>
     <nav id="nav-bar">
         <a href="https://www.youtube.com/watch?v=KMYN4djSq7o" target="-blank">
-            <img alt="Alexandre Pitarch" src="https://media.licdn.com/dms/image/C5603AQGJmR1ikc08JA/profile-displayphoto-shrink_800_800/0/1587475979067?e=2147483647&v=beta&t=6_yjzc1DJnykp1In8Gmtbm7OBVLpHTPWiflYkynR-Uw">
+            <img alt="Alexandre Pitarch" id="photo-alexandre" src="https://media.licdn.com/dms/image/C5603AQGJmR1ikc08JA/profile-displayphoto-shrink_800_800/0/1587475979067?e=2147483647&v=beta&t=6_yjzc1DJnykp1In8Gmtbm7OBVLpHTPWiflYkynR-Uw">
         </a>
             <ul>
-                <li><a href="apropos" class="lien-apropos">A propos</a></li>
+                <li><a href="apropos" class="lien-navbar">A propos</a></li>
                 <li><a href="#experience" class="lien-navbar">Mon expérience</a></li>
                 <li><a href="competences" class="lien-navbar">Mes compétences</a></li>
                 <li><a href="formation" class="lien-navbar">Ma formation</a></li>
@@ -31,6 +31,7 @@
 </header>
 
 <main>
+ <!-- Le message d'accueil-->
     <section id="welcome-section">
         <div id="welcome-title">
             <h1 id="apropos">
@@ -46,6 +47,8 @@
             </blockquote>
         </div>
     </section>
+    <!-- Section experience-->
+    <section class="experience">
     <h2 id="experience">Expérience</h2>
         <ul>
             <li><b class="dates">2023 </b><strong class="métier">Poissonnier chez Manor :</strong>
@@ -59,6 +62,8 @@
             <li><b class="dates">2001-2007 </b><strong class="métier">Pêcheur chez Jura World Fishing :</strong>
                         pêche des requin au Doubs, pêche à la mouche et pêche à la lance en étang.</li>
         </ul>
+    </section>
+    <!--texte aside-->
         <aside>
             <blockquote id="citation-2">« Tonnerre de Brest ! »<br>
                 « Mille Milliard de Mille Sabords ! »<br>
@@ -66,6 +71,8 @@
                 <img alt="Capitaine Hadock" id="capitainhadock" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJw4EHaGCtJmjVnTIDY4KuhfX7UWE00PBGrNsw%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1&ipt=cd9ce994c94d8053814d7c3a26b2cdc809d2580351063d52c88e4cd29f56cfcc&ipo=images">
             </blockquote>
         </aside>
+    <!--la section compétence-->
+    <section class="competences">
     <h2 id="competences">Compétences</h2>
         <ul>
             <li><strong>Pilote de Bâteau</strong>
@@ -75,13 +82,17 @@
             <li><strong>Capitaine</strong>
                     <br>très bonne gestion d'équipe</li>
         </ul>
+    </section>
+    <section class="formation">
     <h2 id="formation">Formation</h2>
         <ul>
             <li><strong>Garde pêche</strong> à</li>
             <li><strong>Permis de bâteau</strong> à PaquebotSchoolAllaine</li>
             <li><strong>Dîplome de pêche</strong> à la haute école de pêche de Grangourt</li>
         </ul>
+    </section>
 </main>
+<!--le footer-->
 <footer>
     <strong>
         Alexandre Pitarch<br>

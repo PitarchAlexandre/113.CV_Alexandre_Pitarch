@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     font-weight: 400;
@@ -10,7 +11,14 @@ body {
     color: darkblue;
     background-color: whitesmoke;
 }
-
+#navbar{
+    background-color: #C40233;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
 
 img {
     max-width: 100%;
@@ -35,4 +43,8 @@ aside {
     height: 100%;
     float: right;
     background-color: deeppink;
+}
+
+#capitainhadock {
+    border-radius: 30%;
 }
