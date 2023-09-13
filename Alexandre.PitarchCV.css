@@ -9,10 +9,11 @@ body {
     font-size: 1.2rem;
     line-height: 1.4;
     color: darkblue;
-    background-color: whitesmoke;
+    background: linear-gradient(#7A76BC, #9492C9)
+
 }
-#navbar {
-    background-color: #55519C;
+#nav-bar {
+    background-color: #635FB0;
     width: 100%;
     top: 0;
     left: 0;
@@ -20,32 +21,41 @@ body {
     display: flex;
     justify-content: flex-end;
 }
-#nav-list{
+#lien-navbar {
     display: flex;
     flex-direction: row;
-
-}
-
-li {
     list-style: none;
-
-}
-
-.a-list {
     color: white;
     text-decoration: none;
     font-size: 1em;
     padding: 1rem 2rem;
 }
+#photo-alexandre {
+    max-width: 12%;
+    height:10%
+    border-radius: 10%;
+    justify-content: left;
+    margin-top: 20px;
+    marign-left:20 px;
+    margin-right: 700px;
+    margin-bottom: 10px;
+}
+#lien-navbar {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1rem 2rem;
+    margin-right: px;
+}
 
-a:hover{
-    background-color: #5072A7;
-    width: 100%;
-    height: 100%
 }
 
 a{ text-decoration: none}
 
+main{
+    margin: 30px;
+
+}
 .welcome-section{
     height: 100vw;
     width: 100%;
@@ -53,24 +63,15 @@ a{ text-decoration: none}
 }
 
 #welcome-section{
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center
 }
 
-#photo-alexandre {
-    max-width: 20%%;
-    height: 10%;
-    width: 10%;
-    border-radius: 20%;
-}
 
-img {
-    max-width: 100%;
-    height: 40%;
-    width: 40%;
-}
+
+
 
 
 main {
@@ -86,4 +87,7 @@ aside {
 
 #capitainhadock {
     border-radius: 30%;
+    max-width: 100%;
+    height: 40%;
+    width: 40%;
 }
