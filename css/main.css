@@ -114,7 +114,7 @@ main {
     color: #3A4A7D;
 }
 @media (max-width: 790px) {
-    margin-top: 200px;
+    #welcome-section{ margin-top: 130px;}
 }
 #citation-1{
     font-style: italic;
@@ -123,6 +123,11 @@ main {
     font-family: "Raleway", sans-serif,;
     text-align: center;
     margin: 2.5rem 0.5rem 2.5rem auto;
+}
+@media (max-width: 790px) {
+    #citation-1{
+        font-size: xx-large;
+    }
 }
 aside {
     width: 20%;
