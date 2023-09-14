@@ -30,13 +30,11 @@ body {
         display: flex;
     }
 }
-
 a {
     color: whitesmoke;
     justify-content: space-between;
     margin: 3rem;
     flex-direction: row;
-
 }
 @media (max-width: 780px){
     a{  font-size: 0.9rem;
@@ -59,10 +57,8 @@ a {
 @media (max-width: 400px){
     #photo-alexandre {
         display: none;
-
     }
 }
-
 #nav-list {
     color:whitesmoke;
     margin: auto;
@@ -72,7 +68,6 @@ a {
     list-style-type: none;
     font-size: 3vw;
     font-family: 'Trebuchet MS', sans-serif;
-
 }
 @media (max-width: 780px){
     #nav-list {
@@ -82,7 +77,6 @@ a {
         padding: 0;
         justify-content: center ;
         align-items: center;
-
     }
 }
 #lien-navbar {
@@ -104,18 +98,18 @@ a {
 a:hover{
     color:whitesmoke;
 }
-main {
-    margin: 5vw;
-    margin-bottom: 10%;
-    padding: 5%;
 
+main {
+    padding: 5%;
+    margin: 10% 5vw 10%;
 }
-.welcome-section{
-    height: 100vw;
-    width: 100%;
+h2 {
+    border-bottom: 4px solid #dfdfe2;
+    margin-top: 2vw;
+    padding-top: 5vw;
 }
+
 #welcome-section{
-    margin-top: 15vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -146,7 +140,7 @@ aside {
     border-radius: 25px;
     padding: 0.5rem;
     justify-content: space-between;
-    margin: 1rem
+    margin: 1rem 0.1rem;
 }
 @media (max-width: 768px) {
     aside {
@@ -174,5 +168,4 @@ aside {
 #logo{
     width: 50px;
     height: 50px;
-
 }
