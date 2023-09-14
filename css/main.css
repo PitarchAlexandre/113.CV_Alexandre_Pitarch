@@ -161,7 +161,12 @@ footer{
     font-style: italic;
     font-size: smaller;
     text-align: center;
-    padding: 25px;
+    padding: 5%;
     border-radius:5px;
     position: initial;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+
 }
