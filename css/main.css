@@ -1,5 +1,4 @@
-* {
-    box-sizing: border-box;
+* {box-sizing: border-box;
 }
 
 
@@ -9,34 +8,38 @@ body {
     font-size: 1.2rem;
     line-height: 1.4;
     color: darkblue;
-    background: linear-gradient(#7A76BC, #9492C9)
+    background-color: whitesmoke;
+}
+
 
 }
-#nav-bar {
-    background-color: #635FB0;
+#nav-bar{
+    background: linear-gradient(#7A76BC, #9492C9);
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
-    display: flex;
+    display: inline;
     justify-content: flex-end;
 }
 #lien-navbar {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     list-style: none;
     color: white;
     text-decoration: none;
     font-size: 1em;
     padding: 1rem 2rem;
+
+
 }
 #photo-alexandre {
     max-width: 12%;
-    height:10%
+    height:10%;
     border-radius: 10%;
     justify-content: left;
     margin-top: 20px;
-    marign-left:20 px;
+    margin-left:20 px;
     margin-right: 700px;
     margin-bottom: 10px;
 }
@@ -47,26 +50,22 @@ body {
     padding: 1rem 2rem;
     margin-right: px;
 }
-
+a {
+    text-decoration: none;
 }
 
-a{ text-decoration: none}
-
-main{
-    margin: 30px;
-
+main {
+    margin: 35px;
 }
 .welcome-section{
     height: 100vw;
     width: 100%;
-
 }
-
 #welcome-section{
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center
+    text-align: center;
 }
 
 
