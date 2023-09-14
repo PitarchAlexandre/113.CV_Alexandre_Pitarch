@@ -19,8 +19,7 @@ body {
     height: 30%;
     position: fixed;
     display: inline;
-    justify-content: flex;
-
+    justify-content: flex-start;
 }
 
 a {
@@ -31,7 +30,7 @@ a {
 }
 #photo-alexandre {
     max-width: 40%;
-    height:%;
+    min-width: 20%;
     border-radius: 10%;
     justify-content: left;
     margin-top: 5%;
@@ -47,7 +46,7 @@ a {
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    font-size: 5vw;
+    font-size: 3vw;
     font-family: 'Trebuchet MS', sans-serif;
 }
 #lien-navbar {
@@ -95,12 +94,17 @@ aside {
     float: right;
     background-color:  #3A4A7D ;
     color: whitesmoke;
-    border-radius: 10%;
+    border-radius: 25px;
     padding: 0.5rem;
     justify-content: space-between;
-    margin: 0.5rem
+    margin: 1rem
 }
-
+@media (max-width: 768px) {
+    aside {
+        width: 100%;
+        float: none;
+    }
+}
 #capitainhadock {
     border-radius: 30%;
     max-width: 100%;
