@@ -22,6 +22,7 @@ body {
     position: fixed;
     display: inline;
     justify-content: flex-start;
+
 }
 @media (max-width: 790px) {
     #nav-bar{
@@ -35,6 +36,7 @@ a {
     justify-content: space-between;
     margin: 3rem;
     flex-direction: row;
+
 }
 @media (max-width: 780px){
     a{  font-size: 0.9rem;
@@ -70,6 +72,7 @@ a {
     list-style-type: none;
     font-size: 3vw;
     font-family: 'Trebuchet MS', sans-serif;
+
 }
 @media (max-width: 780px){
     #nav-list {
