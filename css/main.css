@@ -39,6 +39,7 @@ a {
         color: whitesmoke;
         margin: 0.5rem;
         justify-content: center;
+
     }
 }
 #photo-alexandre {
@@ -51,11 +52,13 @@ a {
     display: inline;
     margin-bottom: 5%;
 }
-@media (max-width: 790px){
+@media (max-width: 400px){
     #photo-alexandre {
         display: none;
+
     }
 }
+
 #nav-list {
     color:whitesmoke;
     margin: auto;
@@ -69,7 +72,7 @@ a {
 @media (max-width: 780px){
     #nav-list {
         width: 100%;
-        text-align: center;
+        text-align: left;
         font-size: medium;
         padding: 0;
         justify-content: center ;
