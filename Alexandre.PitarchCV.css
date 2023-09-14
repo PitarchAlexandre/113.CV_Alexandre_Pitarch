@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color:whitesmoke;
+
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -9,85 +14,114 @@ body {
     font-size: 1.2rem;
     line-height: 1.4;
     color: darkblue;
-    background: linear-gradient(#7A76BC, #9492C9)
+    background-color: whitesmoke;
 
 }
 #nav-bar {
-    background-color: #635FB0;
+    background:linear-gradient(#635FB0,#37323E);
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
 }
 #lien-navbar {
     display: flex;
     flex-direction: row;
-    list-style: none;
     color: white;
     text-decoration: none;
     font-size: 1em;
     padding: 1rem 2rem;
+    margin-right: 15px;
+    list-style-type: none;
 }
 #photo-alexandre {
-    max-width: 12%;
-    height:10%
+    height: 30%;
+    max-width: 35%;
     border-radius: 10%;
     justify-content: left;
-    margin-top: 20px;
-    marign-left:20 px;
-    margin-right: 700px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+
 }
-#lien-navbar {
-    color: white;
+
+#lien-navbar:hover{
     text-decoration: none;
-    font-size: 1em;
-    padding: 1rem 2rem;
-    margin-right: px;
+    list-style-type: none;
 }
 
-}
-
-a{ text-decoration: none}
-
-main{
-    margin: 30px;
-
-}
 .welcome-section{
+    font-family: 'Trebuchet MS', sans-serif;
     height: 100vw;
     width: 100%;
 
 }
 
 #welcome-section{
-    margin-top: 200px;
+    margin-top: 210px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center
-}
-
-
-
-
-
-
-main {
+    text-align: center;
 
 }
+.citation{
+    color: ;
+    font-family: system-ui;
+    font-style: italic;
+    font-size: 2.7rem;
+    text-align: center;
+    margin: 2.5rem 0.5rem 2.5rem auto;
+}
 
+main{
+    margin: 30px;
+}
+
+h2{
+    font-size: xx-large;
+}
 aside {
-    width: 20%;
+    width: 25%;
     height: 100%;
     float: right;
-    background-color: deeppink;
+    background-color: darkslateblue;
+    color: aliceblue;
+    border-radius: 10%;
 }
-
+@media (max-width: 768px) {
+    aside {
+        width: 100%;
+        float: none;
+    }
+}
+#citation-2{
+    font-style: italic;
+}
 #capitainhadock {
     border-radius: 30%;
     max-width: 100%;
     height: 40%;
     width: 40%;
 }
+
+footer {
+    margin-top: 55px;
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    background-color: #6D76CB;
+    color:whitesmoke;
+    padding: 20px;
+}
+#emailmoi {
+    color:whitesmoke;
+}
+#emailmoi:hover{
+    background-color: none;
+}
+
+
