@@ -11,10 +11,8 @@ body {
     background-color: whitesmoke;
 }
 
-
-}
 #nav-bar{
-    background: linear-gradient(#7A76BC, #9492C9);
+    background:linear-gradient(#2C3E50, #395D87);
     width: 100%;
     top: 0;
     left: 0;
@@ -26,13 +24,12 @@ body {
     display: inline-flex;
     flex-direction: row;
     list-style: none;
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     font-size: 1em;
     padding: 1rem 2rem;
-
-
 }
+
 #photo-alexandre {
     max-width: 12%;
     height:10%;
@@ -43,13 +40,8 @@ body {
     margin-right: 700px;
     margin-bottom: 10px;
 }
-#lien-navbar {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 1rem 2rem;
-    margin-right: px;
-}
+
+
 a {
     text-decoration: none;
 }
@@ -66,15 +58,6 @@ main {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-
-
-
-
-
-main {
-
 }
 
 aside {
