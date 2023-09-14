@@ -112,7 +112,9 @@ main {
     margin-right: auto;
     text-align: center;
     color: #3A4A7D;
-
+}
+@media (max-width: 790px) {
+    margin-top: 200px;
 }
 #citation-1{
     font-style: italic;
