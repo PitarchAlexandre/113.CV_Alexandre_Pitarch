@@ -16,45 +16,65 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    height: 30%;
     position: fixed;
     display: inline;
-    justify-content: flex-end;
+    justify-content: flex;
+
+}
+
+a {
+    color: whitesmoke;
+    justify-content: space-between;
+    margin: 4rem;
+    flex-direction: row;
+}
+#photo-alexandre {
+    max-width: 40%;
+    height:%;
+    border-radius: 10%;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+    margin-bottom: 5%;
+}
+#nav-list {
+    color:whitesmoke;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
 }
 #lien-navbar {
-    display: inline-flex;
     flex-direction: row;
     list-style: none;
     color: whitesmoke;
     text-decoration: none;
     font-size: 1em;
     padding: 1rem 2rem;
+
 }
-
-#photo-alexandre {
-    max-width: 12%;
-    height:10%;
-    border-radius: 10%;
-    justify-content: left;
-    margin-top: 20px;
-    margin-left:20 px;
-    margin-right: 700px;
-    margin-bottom: 10px;
-}
-
-
 a {
     text-decoration: none;
 }
-
+a:hover{
+    color:whitesmoke;
+}
 main {
-    margin: 35px;
+    margin: 5vw;
+    padding: 5px;
+
 }
 .welcome-section{
     height: 100vw;
     width: 100%;
+
 }
 #welcome-section{
-    margin-top: 200px;
+    margin-top: 20vw;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -64,7 +84,12 @@ aside {
     width: 20%;
     height: 100%;
     float: right;
-    background-color: deeppink;
+    background-color:  #3A4A7D ;
+    color: whitesmoke;
+    border-radius: 10%;
+    padding: 1%;
+    justify-content: space-between;
+    margin: 5px
 }
 
 #capitainhadock {
@@ -72,4 +97,14 @@ aside {
     max-width: 100%;
     height: 40%;
     width: 40%;
+}
+footer{
+    background-color: #8a9eb5;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+    padding: 25px;
+    border-radius:5px;
+    position: initial;
 }
