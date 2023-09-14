@@ -21,12 +21,25 @@ body {
     display: inline;
     justify-content: flex-start;
 }
+@media (max-width: 790px) {
+    #nav-bar{
+        height: 20%;
+        display: flex;
+    }
+}
 
 a {
     color: whitesmoke;
     justify-content: space-between;
     margin: 3rem;
     flex-direction: row;
+}
+@media (max-width: 780px){
+    a{  font-size: 0.9rem;
+        color: whitesmoke;
+        margin: 0.5rem;
+        justify-content: center;
+    }
 }
 #photo-alexandre {
     max-width: 40%;
@@ -38,16 +51,31 @@ a {
     display: inline;
     margin-bottom: 5%;
 }
+@media (max-width: 790px){
+    #photo-alexandre {
+        display: none;
+    }
+}
 #nav-list {
     color:whitesmoke;
     margin: auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     list-style-type: none;
     font-size: 3vw;
     font-family: 'Trebuchet MS', sans-serif;
+}
+@media (max-width: 780px){
+    #nav-list {
+        width: 100%;
+        text-align: center;
+        font-size: medium;
+        padding: 0;
+        justify-content: center ;
+        align-items: center;
+
+    }
 }
 #lien-navbar {
     flex-direction: row;
@@ -56,6 +84,12 @@ a {
     text-decoration: none;
     padding: 1rem 2rem;
 }
+@media  (max-width: 780px){
+    #lien-navbar{
+        flex-direction: unset;
+    }
+}
+
 a {
     text-decoration: none;
 }
