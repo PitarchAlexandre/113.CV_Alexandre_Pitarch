@@ -56,7 +56,6 @@ a {
     color: whitesmoke;
     text-decoration: none;
     padding: 1rem 2rem;
-
 }
 a {
     text-decoration: none;
@@ -78,11 +77,16 @@ main {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: #3A4A7D;
 
 }
 #citation-1{
     font-style: italic;
     font-size: xxx-large;
+    color: #8a9eb5;
+    font-family: "Raleway", sans-serif,;
+    text-align: center;
+    margin: 2.5rem 0.5rem 2.5rem auto;
 }
 aside {
     width: 20%;
