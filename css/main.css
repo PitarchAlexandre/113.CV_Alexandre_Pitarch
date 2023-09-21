@@ -18,45 +18,16 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    min-height:160px ;
     height: 30%;
     position: fixed;
     display: inline;
     justify-content: flex-start;
-
 }
 @media (max-width: 790px) {
     #nav-bar{
         height: 20%;
         display: flex;
-    }
-}
-a {
-    color: whitesmoke;
-    justify-content: space-between;
-    margin: 3rem;
-    flex-direction: row;
-}
-@media (max-width: 780px){
-    a{  font-size: 0.9rem;
-        color: whitesmoke;
-        margin: 0.5rem;
-        justify-content: center;
-
-    }
-}
-#photo-alexandre {
-    max-width: 40%;
-    min-width: 20%;
-    border-radius: 10%;
-    justify-content: left;
-    margin-top: 5%;
-    margin-left: 5%;
-    display: inline;
-    margin-bottom: 5%;
-}
-@media (max-width: 400px){
-    #photo-alexandre {
-        display: none;
     }
 }
 #nav-list {
@@ -66,7 +37,7 @@ a {
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    font-size: 3vw;
+    font-size: 2.3vw;
     font-family: 'Trebuchet MS', sans-serif;
 }
 @media (max-width: 780px){
@@ -79,6 +50,35 @@ a {
         align-items: center;
     }
 }
+a {
+    color: whitesmoke;
+    justify-content: space-between;
+    margin: 3rem;
+    flex-direction: row;
+}
+@media (max-width: 790px){
+    a{  font-size: 0.9rem;
+        color: whitesmoke;
+        margin: 0.5rem;
+        justify-content: center;
+    }
+}
+#photo-alexandre {
+    max-width: 40%;
+    min-width: 20%;
+    border-radius: 10%;
+    justify-content: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: inline;
+    margin-bottom: 5%;
+}
+@media (max-width: 600px){
+    #photo-alexandre {
+        display: none;
+    }
+}
+
 #lien-navbar {
     flex-direction: row;
     list-style: none;
@@ -122,7 +122,7 @@ h2 {
     font-style: italic;
     font-size: xxx-large;
     color: #8a9eb5;
-    font-family: "Raleway", sans-serif,;
+    font-family: "Raleway", sans-serif, bold;
     text-align: center;
     margin: 2.5rem 0.5rem 2.5rem auto;
 }
@@ -132,6 +132,7 @@ h2 {
     }
 }
 aside {
+    min-width: 210px;
     width: 20%;
     height: 100%;
     float: right;
